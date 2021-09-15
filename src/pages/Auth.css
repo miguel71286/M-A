@@ -1,0 +1,80 @@
+.listado {
+  background: url(../Imagenes/plane.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.card {
+  background: rgba(235, 178, 82, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+
+.btn-form{
+  margin-top: 1rem;
+  background: rgba( 113, 162, 181, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: whitesmoke;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-form:hover {
+  background: rgba( 189, 162, 115, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: rgba( 113, 162, 181, 0.75 );
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-form:active {
+  margin-top: 1rem;
+  background: green;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 11px );
+-webkit-backdrop-filter: blur( 11px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: whitesmoke;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-cambia {
+  border-radius: 26px;
+background: linear-gradient(145deg, #aa9268, #caad7b);
+box-shadow:  18px 18px 35px #7f6d4d,
+             -18px -18px 35px #fbd799;
+}
+
+.btn-cambia:hover{
+  border-radius: 26px;
+background: linear-gradient(145deg, #94afa9, #7c948e);
+box-shadow:  18px 18px 35px #5c6e6a,
+             -18px -18px 35px #b8dad2;
+}
