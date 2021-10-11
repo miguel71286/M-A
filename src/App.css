@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+}
+
+.listado {
+  background: url(./Imagenes/alerta.png);
+  background-size: contain;
+  width: 100%;
+  min-height: 100vh;
+}
+
+#card {
+  border-radius: 25px;
+background: linear-gradient(145deg, #ffd101, #dfb001);
+box-shadow:  5px 5px 5px #d3a601,
+             -5px -5px 5px #ffe001;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#btn-modificar {
+  background-color: red;
+  color:#F8C301;
+}
+
+#btn-modificar:hover {
+  background-color: #F8C301;
+  color: red;
+  transition: 3ms;
+}
+
+#btn-modificar:active {
+  background-color: green;
+}
+
+.error-campos {
+  background-color: red;
+  border-radius: 1rem;
+  font-family: "Lato", "Helvetica Neue";
+  padding: 0.8rem;
+  color:#F8C301 ;
+}
+
+.btn-delete {
+  margin-left: 4%;
+}
+
+.btn-delete:hover {
+  background-color: gray;
+}
+.formulario-crear {
+  background: url(./Imagenes/alerta.png);
+  background-size: contain;
+  width: 100%;
+  min-height: 20vh;
+  text-align: center;
+  align-content: center;
+}
+
+.tarjeta-formulario {
+  background-color: rgba( 74, 74, 74, 0.55 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.form-text {
+  margin-left: 5%;
+  border-radius: 6px;
+  border-color: #4f5c53;
+  background: #f6f3ee;
+  box-shadow: inset 8px 8px 0px #e5e2dd, inset -8px -8px 0px #ffffff;
+}
+
+#btn-creaalerta {
+  margin-left: 5%;
+  margin-bottom: 0.5rem;
+}
+
+.sugerir {
+  color: Black;
+  text-shadow: 3px 3px 3px #F8C301;
+  border-color: #4f5c53;
+  font-family: 'Krona One', sans-serif;
+}
